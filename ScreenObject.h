@@ -10,13 +10,15 @@
 
 class ScreenObject {
 public:
+    ScreenObject(int x, int y);
+    ScreenObject(int x, int y, std::string character);
     int getX();
     int getY();
     std::string getChar();
 private:
     int x_pos;
     int y_pos;
-    std::string charater = "#";
+    std::string m_charater = "#";
 };
 
 

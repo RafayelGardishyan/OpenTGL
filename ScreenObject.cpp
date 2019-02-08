@@ -13,5 +13,16 @@ int ScreenObject::getY() {
 }
 
 std::string ScreenObject::getChar() {
-    return charater;
+    return m_charater;
+}
+
+ScreenObject::ScreenObject(int x, int y) {
+    x_pos = x;
+    y_pos = y;
+}
+
+ScreenObject::ScreenObject(int x, int y, std::string character) {
+    x_pos = x;
+    y_pos = y;
+    m_charater = character;
 }

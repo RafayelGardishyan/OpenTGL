@@ -3,4 +3,4 @@ project(OpenTGL)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(OpenTGL main.cpp ScreenObject.cpp ScreenObject.h Screen.cpp Screen.h)
+add_executable(OpenTGL main.cpp ScreenObject.cpp ScreenObject.h Screen.cpp Screen.h ScreenSettings.cpp ScreenSettings.h)

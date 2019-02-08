@@ -3,11 +3,12 @@
 //
 
 #include <string>
+#include <windows.h>
 
 #include "Screen.h"
 
 void Screen::render() {
-    std::string result = "";
+    std::string result = spacing;
 
     for (int i=0; i<m_width+2; i++){
         result += "#";
@@ -36,12 +37,25 @@ void Screen::render() {
         result += "#";
     }
 
-    result += "\n";
-
     printf(result.c_str());
+
+    Sleep(settings.delay);
 }
 
 Screen::Screen(int width, int height) {
+    settings.delay = 10;
     m_width = width;
     m_height = height;
+
+    for (int i=0; i<100; i++){
+        spacing += "\n";
+    }
+}
+
+void Screen::addObject(ScreenObject &object) {
+    objects.push_back(object);
+}
+
+void Screen::clear() {
+    objects.clear();
 }

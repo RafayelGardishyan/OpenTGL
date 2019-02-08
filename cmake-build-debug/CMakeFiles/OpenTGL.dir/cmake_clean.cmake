@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/OpenTGL.dir/main.cpp.obj"
   "CMakeFiles/OpenTGL.dir/ScreenObject.cpp.obj"
   "CMakeFiles/OpenTGL.dir/Screen.cpp.obj"
+  "CMakeFiles/OpenTGL.dir/ScreenSettings.cpp.obj"
   "OpenTGL.pdb"
   "OpenTGL.exe"
   "OpenTGL.exe.manifest"

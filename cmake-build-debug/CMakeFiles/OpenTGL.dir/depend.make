@@ -4,11 +4,16 @@
 CMakeFiles/OpenTGL.dir/Screen.cpp.obj: ../Screen.cpp
 CMakeFiles/OpenTGL.dir/Screen.cpp.obj: ../Screen.h
 CMakeFiles/OpenTGL.dir/Screen.cpp.obj: ../ScreenObject.h
+CMakeFiles/OpenTGL.dir/Screen.cpp.obj: ../ScreenSettings.h
 
 CMakeFiles/OpenTGL.dir/ScreenObject.cpp.obj: ../ScreenObject.cpp
 CMakeFiles/OpenTGL.dir/ScreenObject.cpp.obj: ../ScreenObject.h
 
+CMakeFiles/OpenTGL.dir/ScreenSettings.cpp.obj: ../ScreenSettings.cpp
+CMakeFiles/OpenTGL.dir/ScreenSettings.cpp.obj: ../ScreenSettings.h
+
 CMakeFiles/OpenTGL.dir/main.cpp.obj: ../Screen.h
 CMakeFiles/OpenTGL.dir/main.cpp.obj: ../ScreenObject.h
+CMakeFiles/OpenTGL.dir/main.cpp.obj: ../ScreenSettings.h
 CMakeFiles/OpenTGL.dir/main.cpp.obj: ../main.cpp
 

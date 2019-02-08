@@ -92,6 +92,12 @@
 		<Unit filename="D:/Programmins/OpenTGL/ScreenObject.h">
 			<Option target="OpenTGL"/>
 		</Unit>
+		<Unit filename="D:/Programmins/OpenTGL/ScreenSettings.cpp">
+			<Option target="OpenTGL"/>
+		</Unit>
+		<Unit filename="D:/Programmins/OpenTGL/ScreenSettings.h">
+			<Option target="OpenTGL"/>
+		</Unit>
 		<Unit filename="D:/Programmins/OpenTGL/main.cpp">
 			<Option target="OpenTGL"/>
 		</Unit>

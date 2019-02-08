@@ -176,6 +176,33 @@ ScreenObject.cpp.s:
 	$(MAKE) -f CMakeFiles\OpenTGL.dir\build.make CMakeFiles/OpenTGL.dir/ScreenObject.cpp.s
 .PHONY : ScreenObject.cpp.s
 
+ScreenSettings.obj: ScreenSettings.cpp.obj
+
+.PHONY : ScreenSettings.obj
+
+# target to build an object file
+ScreenSettings.cpp.obj:
+	$(MAKE) -f CMakeFiles\OpenTGL.dir\build.make CMakeFiles/OpenTGL.dir/ScreenSettings.cpp.obj
+.PHONY : ScreenSettings.cpp.obj
+
+ScreenSettings.i: ScreenSettings.cpp.i
+
+.PHONY : ScreenSettings.i
+
+# target to preprocess a source file
+ScreenSettings.cpp.i:
+	$(MAKE) -f CMakeFiles\OpenTGL.dir\build.make CMakeFiles/OpenTGL.dir/ScreenSettings.cpp.i
+.PHONY : ScreenSettings.cpp.i
+
+ScreenSettings.s: ScreenSettings.cpp.s
+
+.PHONY : ScreenSettings.s
+
+# target to generate assembly for a file
+ScreenSettings.cpp.s:
+	$(MAKE) -f CMakeFiles\OpenTGL.dir\build.make CMakeFiles/OpenTGL.dir/ScreenSettings.cpp.s
+.PHONY : ScreenSettings.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -218,6 +245,9 @@ help:
 	@echo ... ScreenObject.obj
 	@echo ... ScreenObject.i
 	@echo ... ScreenObject.s
+	@echo ... ScreenSettings.obj
+	@echo ... ScreenSettings.i
+	@echo ... ScreenSettings.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

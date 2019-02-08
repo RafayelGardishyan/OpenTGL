@@ -9,6 +9,8 @@
 D:/Programmins/OpenTGL/Screen.cpp
 string
 -
+windows.h
+-
 Screen.h
 D:/Programmins/OpenTGL/Screen.h
 
@@ -17,8 +19,12 @@ vector
 -
 ScreenObject.h
 D:/Programmins/OpenTGL/ScreenObject.h
+ScreenSettings.h
+D:/Programmins/OpenTGL/ScreenSettings.h
 
 D:/Programmins/OpenTGL/ScreenObject.h
 string
 -
+
+D:/Programmins/OpenTGL/ScreenSettings.h
 

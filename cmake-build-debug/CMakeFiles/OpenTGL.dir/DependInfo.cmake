@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Programmins/OpenTGL/Screen.cpp" "D:/Programmins/OpenTGL/cmake-build-debug/CMakeFiles/OpenTGL.dir/Screen.cpp.obj"
   "D:/Programmins/OpenTGL/ScreenObject.cpp" "D:/Programmins/OpenTGL/cmake-build-debug/CMakeFiles/OpenTGL.dir/ScreenObject.cpp.obj"
+  "D:/Programmins/OpenTGL/ScreenSettings.cpp" "D:/Programmins/OpenTGL/cmake-build-debug/CMakeFiles/OpenTGL.dir/ScreenSettings.cpp.obj"
   "D:/Programmins/OpenTGL/main.cpp" "D:/Programmins/OpenTGL/cmake-build-debug/CMakeFiles/OpenTGL.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
