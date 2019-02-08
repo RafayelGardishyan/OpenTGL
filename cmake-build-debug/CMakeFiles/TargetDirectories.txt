@@ -1,0 +1,3 @@
+D:/Programmins/OpenTGL/cmake-build-debug/CMakeFiles/OpenTGL.dir
+D:/Programmins/OpenTGL/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Programmins/OpenTGL/cmake-build-debug/CMakeFiles/rebuild_cache.dir

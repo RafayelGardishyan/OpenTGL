@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Programmins/OpenTGL/Screen.cpp
+string
+-
+Screen.h
+D:/Programmins/OpenTGL/Screen.h
+
+D:/Programmins/OpenTGL/Screen.h
+vector
+-
+ScreenObject.h
+D:/Programmins/OpenTGL/ScreenObject.h
+
+D:/Programmins/OpenTGL/ScreenObject.h
+string
+-
+
