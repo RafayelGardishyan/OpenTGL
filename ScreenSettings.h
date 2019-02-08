@@ -9,7 +9,7 @@
 class ScreenSettings {
 public:
     bool auto_clear;
-    int delay; // In milliseconds
+    unsigned int delay; // In milliseconds
     // TODO: Coming more settings
 };
 
