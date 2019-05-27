@@ -6,10 +6,16 @@
 #define OPENTGL_SCREENSETTINGS_H
 
 
+#include <string>
+
 class screensettings {
 public:
     int width;
     int height;
+    bool clear_after_render = true;
+    std::string std_char = "#";
+    bool delay_after_render = true;
+    int delay = 100;
 };
 
 

@@ -14,17 +14,17 @@ class screen {
 public:
     screen(int width, int height);
 
-    void add_object(screenobject o);
+    int add_object(const screenobject& o);
 
     void render();
 
 private:
     std::vector<screenobject> m_objects;
     screensettings m_settings;
-    std::vector<std::vector<std::string>> m_frame;
+    std::string * m_frame;
 
     void init_frame();
-    void empty_frame();
+    void empty();
 };
 
 

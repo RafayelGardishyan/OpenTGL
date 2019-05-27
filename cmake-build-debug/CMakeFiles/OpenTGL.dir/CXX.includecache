@@ -7,6 +7,12 @@
 #IncludeRegexTransform: 
 
 /home/rafayel/opentgl/screen/screen.cpp
+iostream
+-
+chrono
+-
+thread
+-
 screen.h
 /home/rafayel/opentgl/screen/screen.h
 
@@ -23,4 +29,6 @@ string
 -
 
 /home/rafayel/opentgl/screen/screensettings.h
+string
+-
 
