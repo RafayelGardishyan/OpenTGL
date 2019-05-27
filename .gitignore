@@ -1,3 +1,6 @@
 cmake-build-*
-cmake-build-*/
+cmake-build-*/*
 /cmake-build-*
+/.idea/*
+.idea/*
+/.idea*
