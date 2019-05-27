@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rafayel/opentgl/main.cpp
+iostream
+-
+screen/screen.h
+/home/rafayel/opentgl/screen/screen.h
+
+/home/rafayel/opentgl/screen/screen.cpp
+screen.h
+/home/rafayel/opentgl/screen/screen.h
+
+/home/rafayel/opentgl/screen/screen.h
+vector
+-
+screenobject.h
+/home/rafayel/opentgl/screen/screenobject.h
+screensettings.h
+/home/rafayel/opentgl/screen/screensettings.h
+
+/home/rafayel/opentgl/screen/screenobject.h
+string
+-
+
+/home/rafayel/opentgl/screen/screensettings.h
+
