@@ -6,14 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/rafayel/opentgl/screen/screen.cpp
+/home/rafayel/opentgl/main.cpp
 iostream
 -
-chrono
--
-thread
--
-screen.h
+screen/screen.h
 /home/rafayel/opentgl/screen/screen.h
 
 /home/rafayel/opentgl/screen/screen.h
