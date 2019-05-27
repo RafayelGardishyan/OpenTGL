@@ -8,9 +8,8 @@ screen::screen(int width, int height) {
     m_settings.width = width;
     m_settings.height = height;
 
-    m_frame = new std::string[height + 2][width + 2];
-
     // Initialize frame
+    empty_frame();
     init_frame();
 
 }
@@ -52,4 +51,18 @@ void screen::init_frame() {
     for (int i = 0; i < m_settings.width + 2; ++i) {
         m_frame[m_settings.height + 1][i] = "#";
     }
+}
+
+void screen::empty_frame() {
+
+    for (int i = 0; i < m_settings.height; ++i) {
+        std::vector<std::string> row;
+        row.reserve(m_settings.width);
+        for (int j = 0; j < m_settings.width; ++j) {
+            row.emplace_back(" ");
+        }
+        m_frame.push_back(row);
+        row.clear();
+    }
+
 }

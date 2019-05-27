@@ -21,9 +21,10 @@ public:
 private:
     std::vector<screenobject> m_objects;
     screensettings m_settings;
-    std::string *m_frame[][];
+    std::vector<std::vector<std::string>> m_frame;
 
     void init_frame();
+    void empty_frame();
 };
 
 

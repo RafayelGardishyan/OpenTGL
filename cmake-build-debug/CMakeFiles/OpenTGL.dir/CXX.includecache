@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/rafayel/opentgl/main.cpp
-iostream
--
-screen/screen.h
-/home/rafayel/opentgl/screen/screen.h
-
 /home/rafayel/opentgl/screen/screen.cpp
 screen.h
 /home/rafayel/opentgl/screen/screen.h
